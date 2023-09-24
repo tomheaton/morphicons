@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    // "declaration": true,
     "target": "ES6",
     "module": "ESNext",
     "jsx": "react",
@@ -8,6 +7,11 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node"
-  }
+    "moduleResolution": "node",
+    "declaration": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules", "dist"]
 }
