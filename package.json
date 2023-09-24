@@ -1,0 +1,39 @@
+{
+  "name": "morphicons",
+  "description": "Morphing icons for React",
+  "version": "0.1.0",
+  "license": "MIT",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomheaton/morphicons.git"
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "editable",
+    "svg"
+  ],
+  "author": "Tom Heaton <tom@tomheaton.dev> (https://tomheaton.dev)",
+  "main": "dist/index.js",
+  "files": ["dist"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "rollup": "^3.29.3",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "typescript": "^5.2.2"
+  }
+}
