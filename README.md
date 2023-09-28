@@ -11,7 +11,8 @@ export default function Icons() {
   return (
     <>
       <MorphIcon name="sun" />
-      <MorphIcon name="moon" />
+      <MorphIcon name="sun" variant="square" />
+      <MorphIcon name="sun" variant="square" fill />
     </>
   )
 }
