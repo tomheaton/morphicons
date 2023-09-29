@@ -1,6 +1,6 @@
 # morphicons
 
-Morphing icons for React.
+Morphing icons for React. Customise icons with variants and colours.
 
 ## Example
 
