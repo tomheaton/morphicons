@@ -10,7 +10,7 @@
     "moduleResolution": "node",
     "declaration": true,
     "outDir": "./dist",
-    "baseUrl": "./",
+    "baseUrl": "./"
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],
   "exclude": ["node_modules", "dist"]

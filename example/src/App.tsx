@@ -4,7 +4,7 @@ import "./App.css";
 export default function App() {
   return (
     <main>
-      <h1>morphicons example</h1>
+      <h1>MorphIcons Example App</h1>
       <br />
       <div>
         <TestIcon />
@@ -12,5 +12,5 @@ export default function App() {
         <SquareIcon />
       </div>
     </main>
-  )
+  );
 }

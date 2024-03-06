@@ -19,7 +19,11 @@ export default {
       name: "morphicons",
     },
   ],
-  plugins: [commonjs(), resolve(), typescript({
-    tsconfig: "./tsconfig.json",
-  })],
+  plugins: [
+    commonjs(),
+    resolve(),
+    typescript({
+      tsconfig: "./tsconfig.json",
+    }),
+  ],
 };

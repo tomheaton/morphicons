@@ -14,6 +14,6 @@ export default function Icons() {
       <MorphIcon name="sun" variant="square" />
       <MorphIcon name="sun" variant="square" fill />
     </>
-  )
+  );
 }
 ```
