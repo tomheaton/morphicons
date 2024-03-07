@@ -7,7 +7,7 @@ export default function App() {
       <h1>MorphIcons Example App</h1>
       <br />
       <div>
-        <TestIcon />
+        <TestIcon scale={5}/>
         <CircleIcon />
         <SquareIcon />
       </div>

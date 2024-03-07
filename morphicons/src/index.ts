@@ -1,3 +1,5 @@
+export { default as Icon } from "./Icon";
+
 export { default as CircleIcon } from "./CircleIcon";
 export { default as SquareIcon } from "./SquareIcon";
 

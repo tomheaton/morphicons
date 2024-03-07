@@ -28,7 +28,8 @@
     "access": "public"
   },
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
   },
   "dependencies": {
     "react": "^18.2.0",

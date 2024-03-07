@@ -7,7 +7,7 @@ export default function TestIcon({
 }): React.JSX.Element {
   return (
     <svg
-      scale={0.5}
+      scale={100}
       width="24"
       height="24"
       viewBox="0 0 24 24"
@@ -27,6 +27,7 @@ export default function TestIcon({
         viewBox="0 0 24 24"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        scale={0.1}
       >
         <path
           fill-rule="evenodd"

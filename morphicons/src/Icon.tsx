@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function CircleIcon(): React.JSX.Element {
+export default function Icon(): React.JSX.Element {
   return (
     <svg
       width="24"
