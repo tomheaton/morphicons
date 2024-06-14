@@ -5,6 +5,8 @@ export { default as SquareIcon } from "./SquareIcon";
 
 export { default as TestIcon } from "./TestIcon";
 
+export { default as MorphIcon } from "./MorphIcon";
+
 export type TestType = {
   name: string;
   size: number;

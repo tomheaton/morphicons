@@ -4,6 +4,7 @@ import { defineConfig } from "vite";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  // TODO: add path aliases
   // optimizeDeps: {
   //   include: ["morphicons"],
   // },
