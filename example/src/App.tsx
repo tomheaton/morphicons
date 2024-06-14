@@ -1,4 +1,4 @@
-import { CircleIcon, MorphIcon, SquareIcon, TestIcon } from "morphicons";
+import { MorphIcon } from "morphicons";
 import "./App.css";
 
 export default function App() {
@@ -6,11 +6,11 @@ export default function App() {
     <main>
       <h1>MorphIcons Example App</h1>
       <br />
-      <div>
-        <TestIcon scale={5} colour="red" />
-        <CircleIcon />
-        <SquareIcon />
-        <MorphIcon name="moon" variant="circle" color="blue" size={64} />
+      <div style={{ display: "flex", gap: 16, alignItems: "center", justifyContent: "center" }}>
+        <MorphIcon name="sun" color="orange" size={48} variant="circle" fill designVariant="filled" />
+        <MorphIcon name="sun" color="blue" size={48} variant="square" />
+        <MorphIcon name="sun" color="red" size={48} variant="default" />
+        <MorphIcon name="moon" color="yellow" size={48} designVariant="filled" />
       </div>
     </main>
   );
