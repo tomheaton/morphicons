@@ -17,3 +17,15 @@ export default function Icons() {
   );
 }
 ```
+
+## Development
+
+```bash
+cd morphicons
+npm link
+
+cd ..
+
+cd example
+npm link morphicons
+```

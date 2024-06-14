@@ -10,7 +10,7 @@ export default function App() {
         <TestIcon scale={5} colour="red" />
         <CircleIcon />
         <SquareIcon />
-        <MorphIcon name="sun" variant="default" fill color="blue" size={48} />
+        <MorphIcon name="moon" variant="circle" color="blue" size={64} />
       </div>
     </main>
   );
