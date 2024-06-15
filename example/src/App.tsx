@@ -1,5 +1,5 @@
+import "@/App.css";
 import { MorphIcon } from "morphicons";
-import "./App.css";
 
 export default function App() {
   return (
