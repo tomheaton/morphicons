@@ -1,6 +1,6 @@
 {
   "name": "morphicons",
-  "description": "Morphing Icons for React",
+  "description": "Morphing Icons for React. Customise icons with variants and colours.",
   "version": "0.1.0",
   "license": "MIT",
   "readme": "README.md",
@@ -9,13 +9,16 @@
     "url": "https://github.com/tomheaton/morphicons.git"
   },
   "keywords": [
-    "react",
     "icons",
+    "react",
     "editable",
     "svg",
     "customisable",
     "configurable",
-    "styled"
+    "styled",
+    "morphing",
+    "variants",
+    "colours"
   ],
   "author": "Tom Heaton <tom@tomheaton.dev> (https://tomheaton.dev)",
   "main": "dist/index.js",
