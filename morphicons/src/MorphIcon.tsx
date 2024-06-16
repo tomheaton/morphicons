@@ -17,15 +17,6 @@ type IconNames = keyof typeof icons;
 type IconVariants = "default" | "square" | "circle";
 type DesignVariants = "default" | "filled";
 
-interface MorphIconProps {
-  name: IconNames;
-  variant?: IconVariants;
-  designVariant?: DesignVariants;
-  fill?: boolean;
-  color?: string;
-  size?: number;
-}
-
 const applyVariant = (
   icon: string,
   variant: IconVariants,
@@ -71,7 +62,14 @@ export default function MorphIcon({
   fill = false,
   color = "black",
   size = 24,
-}: MorphIconProps) {
+}: {
+  name: IconNames;
+  variant?: IconVariants;
+  designVariant?: DesignVariants;
+  fill?: boolean;
+  color?: string;
+  size?: number;
+}) {
   const iconPath = icons[name][designVariant];
 
   if (!iconPath) {
