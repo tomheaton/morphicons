@@ -1,4 +1,3 @@
-import "@/App.css";
 import { MorphIcon } from "morphicons";
 
 export default function App() {
