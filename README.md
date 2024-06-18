@@ -5,7 +5,7 @@ Morphing icons for React. Customise icons with variants and colours.
 ## Example
 
 ```jsx
-import MorphIcon from "morphicons";
+import { MorphIcon } from "morphicons";
 
 export default function Icons() {
   return (
